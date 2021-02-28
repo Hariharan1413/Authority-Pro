@@ -1,0 +1,160 @@
+body {
+    background-color:white;
+}
+.container {
+    background-color:blue;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    font-family:'Open Sans',sans-serif; 
+    float: center;
+    font-size:15px;
+    font-weight: 700;
+}
+#TL {
+    margin-top:0px ;
+    margin-left: 100px;
+    float: left;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+ul {
+    list-style-type: none;
+    float: right;
+    padding: 1px;
+    margin-right: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: small;
+}
+
+li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 30px;
+    padding: 5px;
+}
+li.active {
+    color: blue;
+}
+li.activea {
+    color: blue;
+    border: 3px solid blue;
+}
+.emp {
+    margin-bottom: 50px;
+    margin-top: 127px;
+    margin-left: 480px;
+    width: 700px;
+    height: 375px;
+    background-color: #eeeeee;
+}
+.sm {
+    width:35px;
+    height: 5px;
+    margin: 35px 10px 0px 680px;
+    background-color: blue;
+    position: absolute;
+}
+p1.ver {
+    margin: 140px 30px 0px 680px;
+    -webkit-transform: rotate(-180deg);
+    position:absolute;
+    writing-mode: vertical-lr;
+    font-size: xx-small;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}
+.submain {
+    width: 400px;
+    margin:200px -200px;
+    position: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 20px;
+}
+#main {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 20px -230px;
+    position: fixed;
+    width: 450px;
+    font-size:30px;
+    font-weight: 900;
+
+}
+.box {
+    background-color: white;
+    width: 400px;
+    border: none;
+    
+    box-shadow: 2px 2px 8px 5px #eeeeee;
+    height: 50px;
+    margin: 275px -230px;
+    position: fixed;
+
+
+}
+input {
+    margin: 5px 50px;
+    border:none;
+    padding: 10px 10px;
+
+    background-color:white;
+}
+.sum {
+    border: 1px solid white;
+    margin:  275px -30px;
+    background-color:white;
+    position: fixed;
+
+}
+#click {
+    background-color:  blue;
+    border: 2px solid blue;
+    padding: 10px 15px;
+    color: white;
+    margin-right: -40px;
+    box-shadow:1px blue;
+}
+.img {
+    position: fixed;
+    margin: 80px 800px;
+    border: 1px solid #eeeeee
+    padding: 10px;
+
+    box-shadow: 10px 10px 10px 10px #eeeeee;
+    
+}
+.side {
+    margin: 30px 0px;
+    writing-mode: vertical-lr;
+    position: absolute;
+    -webkit-transform: rotate(180deg);
+    font-size: x-small;
+    font-weight: 600%;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    opacity: 0.6;
+
+}
+.side2 {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 520px 600px 0px;
+    font-size: xx-small;
+    opacity: 0.6;
+    
+    
+}
+.logo1 {
+    margin: 430px -58px 0px;
+    position: absolute;
+}
+.logo2 {
+    position: absolute;
+    margin: 430px  250px;
+}
