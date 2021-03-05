@@ -70,7 +70,7 @@ p1.ver {
 .submain {
     width: 400px;
     margin:200px -200px;
-    position: fixed;
+    position: absolute;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     line-height: 20px;
@@ -79,7 +79,7 @@ p1.ver {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 20px -230px;
-    position: fixed;
+    position: absolute;
     width: 450px;
     font-size:30px;
     font-weight: 900;
@@ -93,7 +93,7 @@ p1.ver {
     box-shadow: 2px 2px 8px 5px #eeeeee;
     height: 50px;
     margin: 275px -230px;
-    position: fixed;
+    position: absolute;
 
 
 }
@@ -118,13 +118,18 @@ input {
     color: white;
     margin-right: -40px;
     box-shadow:1px blue;
+    cursor: pointer;
+}
+
+#img1 {
+    width: 300px;
 }
 .img {
-    position: fixed;
+    position:absolute;
     margin: 80px 800px;
     border: 1px solid #eeeeee
     padding: 10px;
-
+    
     box-shadow: 10px 10px 10px 10px #eeeeee;
     
 }
@@ -158,3 +163,112 @@ input {
     position: absolute;
     margin: 430px  250px;
 }
+@media screen and (max-width:600px)
+{ .container { background-color: blue;
+    background-size: cover;
+    color: white;
+    background-size: cover;
+}
+#TL {
+    color: blue;
+
+    position: relative;
+    margin-left: 140px;
+}
+ul { 
+    float: left;
+    margin-top: 0px;
+    margin-left: 200px;
+    position: relative;
+    
+}
+.
+.img {
+      margin-top: 300px;
+      margin-left: 300px;
+      position: relative;
+      z-index: +1;
+}
+#img1 {
+    margin-top: 350px;
+      margin-left: -700px;
+      position: relative;
+      z-index: +1;
+      
+}
+
+.emp {
+    margin-top: 400px;
+    margin-left: 30px;
+    width: 420px;
+    height: 500px;
+    position: relative;
+    
+}
+#main {
+    margin-top: 500px;
+    margin-left: 0px;
+    width: 420px;
+    text-align: center;
+    background-color: #eeeeee;
+}
+.submain {
+    margin-top: 700px;
+    margin-left: 0px;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    padding-right: 10px;
+    text-align:center
+}
+.box {
+    margin-top: 780px;
+    border-color: white;
+    margin-left: 0px;
+    b
+}
+.sum {
+    margin-top: 840px;
+    width: 200px;
+    margin-left: -50px;
+    position: absolute;
+    padding:  0px;
+    background-color:white;
+}
+
+.sm {
+    width:35px;
+    height: 5px;
+   margin: 50px 0px 100px -20px;
+   position: absolute;
+    background-color: blue;
+
+}  
+.side2 {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 1300px 200px 0px;
+    font-size: xx-small;
+    opacity: 0.6;
+}
+.logo1 {
+    margin: 950px -10px 0px;
+    position: absolute;
+}
+.logo2 {
+    position: absolute;
+    margin: 950px  220px;
+}
+p1.ver {
+    margin: 140px 0px -600px 405px;
+    -webkit-transform: rotate(-180deg);
+    writing-mode: vertical-lr;
+    font-size: xx-small;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight:600;
+}  
+
+}
+    
